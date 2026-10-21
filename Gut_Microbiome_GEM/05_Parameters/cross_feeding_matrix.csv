@@ -1,0 +1,28 @@
+producer,consumer,metabolite,stoichiometry,direction,source,reference,notes
+Lac,community,lactate,2,produce,文献/AGORA,待具体引用（乳酸菌同型发酵）,Lactobacillus 主要产乳酸
+Bif,community,lactate,1.5,produce,文献/AGORA,待具体引用（双歧杆菌异型发酵）,Bifidobacterium 产乳酸+乙酸
+Bth,community,lactate,1,produce,AGORA交换反应,AGORA 1.0,Bacteroides 部分种可产乳酸
+community,Vei,lactate,3,consume,文献/AGORA,待具体引用（乳酸→丙酸）,Veillonella 经典乳酸利用菌，经甲基丙二酰CoA途径产丙酸
+community,Meg,lactate,3,consume,文献/AGORA,待具体引用（乳酸→丙酸）,Megasphaera 经丙烯酸途径产丙酸
+community,Eub,lactate,2,consume,文献/AGORA,待具体引用（乳酸→丁酸）,Eubacterium hallii 乳酸→丁酸
+community,Aci,lactate,0,no_growth,FBA测定,本项目单菌FBA,Aci 在乳酸唯一碳源下不可生长
+community,Bif,lactate,0,no_growth,FBA测定,本项目单菌FBA,Bif 在乳酸唯一碳源下不可生长（旧数据）
+community,Fae,lactate,0,no_growth,FBA测定,本项目单菌FBA,Fae 不利用乳酸，产丁酸
+Vei,community,propionate,2,produce,文献/AGORA,待具体引用,乳酸→丙酸
+Meg,community,propionate,2,produce,文献/AGORA,待具体引用,乳酸→丙酸
+Bth,community,propionate,1,produce,AGORA交换反应,AGORA 1.0,拟杆菌发酵产物
+Aci,community,propionate,1,produce,AGORA交换反应,AGORA 1.0,氨基酸发酵产丙酸
+Eub,community,butyrate,1,produce,文献/AGORA,待具体引用,产丁酸菌
+Ros,community,butyrate,1,produce,文献/AGORA,待具体引用,Roseburia 产丁酸菌
+Fae,community,butyrate,1,produce,文献/AGORA,待具体引用,Faecalibacterium 产丁酸菌
+Eco,community,formate,1,produce,文献/AGORA,待具体引用,肠杆菌科混合酸发酵产甲酸
+community,Eco,formate,1,consume,AGORA交换反应,AGORA 1.0,E. coli 可消耗甲酸（甲酸脱氢酶）
+Bif,community,acetate,1.5,produce,文献/AGORA,待具体引用,双歧杆菌异型发酵产乙酸
+Aci,community,acetate,1,produce,AGORA交换反应,AGORA 1.0,氨基酸发酵产乙酸
+Eco,community,acetate,1,produce,文献/AGORA,待具体引用,混合酸发酵
+Bth,community,succinate,1,produce,AGORA交换反应,AGORA 1.0,拟杆菌发酵产物
+Eco,community,H2,1,produce,AGORA交换反应,AGORA 1.0,混合酸发酵
+Eco,community,CO2,1,produce,AGORA交换反应,AGORA 1.0,混合酸发酵
+Bif,community,CO2,1,produce,AGORA交换反应,AGORA 1.0,异型发酵
+community,Bth,valerate,1,consume,AGORA交换反应,AGORA 1.0,仅Bth/Meg有异戊酸交换反应
+community,Meg,valerate,1,consume,AGORA交换反应,AGORA 1.0,同上

@@ -1,0 +1,27 @@
+carbon_source,input_rate,unit,condition,description,source,notes
+glucose,2,mmol,健康,ODE中S_in=2 mmol,本项目ODE参数,来自dynamic_model_acids_all.m
+glucose,0.5,mmol,疾病,模拟辐照后肠道吸收下降,假设值,参考SteadyCom疾病场景参数
+glucose,2,mmol,火星饮食,与健康相同,假设值,无实测数据
+glucose,2,mmol,火星饮食+乳酸,与健康相同,假设值,无实测数据
+lactate,0.02,mmol/h,健康,无额外乳酸,本项目ODE参数,acid_prod_rate=0
+lactate,0.02,mmol/h,疾病,工程菌产乳酸基线,本项目ODE参数,acid_prod_rate=0.02
+lactate,0.02,mmol/h,火星饮食,工程菌产乳酸,本项目ODE参数,同上
+lactate,0.02,mmol/h,火星饮食+乳酸,工程菌产乳酸,本项目ODE参数,同上
+formate,0.02,mmol/h,健康,酸产生速率（甲酸模拟）,本项目ODE参数,与乳酸同速率，便于对比
+propionate,0.02,mmol/h,健康,酸产生速率（丙酸模拟）,本项目ODE参数,同上
+valerate,0.02,mmol/h,健康,酸产生速率（戊酸模拟）,本项目ODE参数,同上
+fiber,NaN,g/L/h,健康,膳食纤维,待补,本模型未显式建模纤维；由额外碳源交换近似
+fiber,NaN,g/L/h,火星饮食,膳食纤维摄入下降,Dong et al. 2019,DOI: 10.7717/peerj.7762；未定量
+mucin,NaN,g/L/h,健康,粘蛋白降解产物,待补,本模型未显式建模粘蛋白
+acetate,1,mmol,健康,额外碳源（SteadyCom场景）,本项目SteadyCom参数,extraCarbonLevel=1.0
+acetate,0.1,mmol,疾病,额外碳源下降,本项目SteadyCom参数,extraCarbonLevel=0.1
+butyrate,1,mmol,健康,额外碳源,本项目SteadyCom参数,同上
+propionate,1,mmol,健康,额外碳源,本项目SteadyCom参数,同上
+fructose,1,mmol,健康,额外碳源（果糖）,本项目SteadyCom参数,同上
+galactose,1,mmol,健康,额外碳源（半乳糖）,本项目SteadyCom参数,同上
+mannose,1,mmol,健康,额外碳源（甘露糖）,本项目SteadyCom参数,同上
+xylose,1,mmol,健康,额外碳源（木糖）,本项目SteadyCom参数,同上
+arabinose,1,mmol,健康,额外碳源（阿拉伯糖）,本项目SteadyCom参数,同上
+fucose,1,mmol,健康,额外碳源（岩藻糖）,本项目SteadyCom参数,同上
+N-acetylglucosamine,1,mmol,健康,额外碳源（GlcNAc）,本项目SteadyCom参数,同上
+N-acetylneuraminate,1,mmol,健康,额外碳源（唾液酸）,本项目SteadyCom参数,同上

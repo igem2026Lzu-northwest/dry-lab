@@ -1,0 +1,7 @@
+﻿condition,mu_h,tyrosine_net_flux,melanin,notes
+WT_aerobic,0.2813,-0.0386,0.0,好氧
+ΔpheA+Phe/Tyr,0.2878,-0.0386,0.0,补 Phe/Tyr
++overexpress_TYRTA,0.2878,-0.0386,0.0,
++downregulate_PYK_50,0.2878,-0.0386,0.0,
+forced_Tyr_uptake+fixed_growth,,,,无解
+zero_growth_max_Tyr,0.0,-0.0039,0.0,零生长最大化酪氨酸

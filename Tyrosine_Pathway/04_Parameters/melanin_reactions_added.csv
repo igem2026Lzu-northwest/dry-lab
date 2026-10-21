@@ -1,0 +1,5 @@
+﻿reaction_id,equation
+TYR_OX1,Tyr + O2 -> DOPA + H2O
+TYR_OX2,DOPA + O2 -> DOPAquinone + H2O
+MELANIN_SYN,2 DOPAquinone -> Melanin
+EX_melanin_e,Melanin -> extracellular

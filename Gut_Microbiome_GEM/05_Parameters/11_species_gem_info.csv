@@ -1,0 +1,12 @@
+﻿label,species,gem_file,source
+Aci,Acidaminococcus fermentans DSM 20731,Acidaminococcus_fermentans_DSM_20731.xml,AGORA 1.0
+Akk,Akkermansia muciniphila ATCC BAA-835,Akkermansia_muciniphila_ATCC_BAA_835.xml,AGORA 1.0
+Bth,Bacteroides thetaiotaomicron VPI 5482,Bacteroides_thetaiotaomicron_VPI_5482.xml,AGORA 1.0
+Bif,Bifidobacterium longum E18,Bifidobacterium_longum_E18.xml,AGORA 1.0
+Eub,Eubacterium hallii DSM 3353,Eubacterium_hallii_DSM_3353.xml,AGORA 1.0
+Fae,Faecalibacterium cf prausnitzii KLE1255,Faecalibacterium_cf_prausnitzii_KLE1255.xml,AGORA 1.0
+Meg,Megasphaera elsdenii DSM 20460,Megasphaera_elsdenii_DSM_20460.xml,AGORA 1.0
+Vei,Veillonella parvula Te3 DSM 2008,Veillonella_parvula_Te3_DSM_2008.xml,AGORA 1.0
+Lac,Lactobacillus plantarum JDM1,Lactobacillus_plantarum_JDM1.xml,AGORA 1.0
+Eco,Escherichia coli O157:H7 str. Sakai,Escherichia_coli_O157_H7_str_Sakai.xml,AGORA 1.0
+Ros,Roseburia intestinalis L1-82,Roseburia_intestinalis_L1_82.xml,AGORA 1.0

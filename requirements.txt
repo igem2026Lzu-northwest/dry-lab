@@ -1,0 +1,27 @@
+# =========================================================
+# iGEM Dry Lab Environment Dependencies
+# =========================================================
+
+# ---------------------------------------------------------
+# 1. Python Dependencies (Core for Microbiome ODE & Plotting)
+# Install via: pip install -r requirements.txt
+# ---------------------------------------------------------
+numpy>=1.20.0
+scipy>=1.7.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+
+# ---------------------------------------------------------
+# 2. MATLAB Dependencies (Core for FBA & GEM Simulation)
+# Note: These cannot be installed via pip. Please install manually.
+# ---------------------------------------------------------
+# MATLAB version    : R2022a or higher
+# RAVEN Toolbox     : v2.11.1 (Required for SBML import/export)
+# Gurobi Optimizer  : v13.0.2 (Required for LP solving)
+# Gurobi MATLAB API : (Ensure gurobi.jar is added to the Java classpath)
+
+# ---------------------------------------------------------
+# 3. R Dependencies (Optional for 16S Data Processing)
+# ---------------------------------------------------------
+# R version         : 4.0+
+# Packages          : dada2, phyloseq, vegan, ggplot2

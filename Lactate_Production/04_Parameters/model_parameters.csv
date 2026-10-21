@@ -1,0 +1,13 @@
+﻿parameter,value,unit,description,source
+model_name,iJO1366 enzyme-constrained (ecModel_iJO1366),-,基础模型 + 酶约束,结论.docx 2.1
+organism,E. coli K-12 MG1655,-,菌株,结论.docx
+biomass_reaction,BIOMASS_Ec_iJO1366_WT_53p95M,-,生物量反应,结论.docx
+toolbox,RAVEN2.11.1; GECKO3.2.5; Gurobi13.0.2,-,工具箱,结论.docx 2.1
+environment,MATLAB2022a; Windows,-,运行环境,结论.docx 2.1
+oxygen_exchange,EX_o2_e lb=ub=0,-,严格厌氧,结论.docx 2.2
+glucose_exchange,EX_glc_D_e lb=-10,mmol/gDCW/h,葡萄糖充足,结论.docx 2.2
+protein_pool,0.125,-,蛋白质池约束,之前对话
+model_size,3195 reactions; 1806 metabolites,-,模型规模,结果报告
+dFBA_dt,0.01,h,动态 FBA 步长,结论.docx 2.4
+two_stage_phase1_O2_lb,-20,mmol/gDCW/h,好氧阶段 O2 设置,结论.docx 2.4
+two_stage_phase2_bioRxn,0,-,零生长约束,结论.docx 2.4

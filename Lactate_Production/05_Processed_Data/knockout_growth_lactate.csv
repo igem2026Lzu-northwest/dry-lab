@@ -1,0 +1,11 @@
+﻿condition,knockout_genes,knockout_reactions,mu_h,lactate,formate,acetate,succinate,ethanol,co2,feasible,source
+WT,none,none,0.0794,9.4031,0.3065,0.0,0.0249,0.0,0.2854,True,结果.docx 1
+ΔadhE,adhE,ACALD; ALCD2x,0.0794,9.4031,0.3065,0.0,0.0249,0.0,0.2854,True,结果.docx 1
+ΔpflB,pflB,PFL; OBTFL,0.0775,9.6794,0.0,0.0,0.0249,0.0,0.2854,True,结果.docx 1
+安全琥珀酸,frdABCD; dcuS,FRD2; FRD3; SUCCt2_2pp,0.0794,9.4031,0.3065,0.0,0.0249,0.0,0.2854,True,结果.docx 1
+ΔpflB+安全琥珀酸,pflB; frdABCD; dcuS,PFL; OBTFL; FRD2; FRD3; SUCCt2_2pp,0.0775,9.6794,0.0,0.0,0.0249,0.0,0.2854,True,结果.docx 1
+上述+ΔACKr,pflB; frdABCD; dcuS; ackA,PFL; OBTFL; FRD2; FRD3; SUCCt2_2pp; ACKr,0.0774,9.6698,0.0,0.0,0.0249,0.0,0.2854,True,结果.docx 1
+ΔldhA,ldhA,LDH_D,0.0445,,,,,,,True,结果报告表1
+ΔackA,ackA,ACKr,0.0794,,,,,,,True,结果报告表1
+ΔldhA+ΔackA,ldhA; ackA,LDH_D; ACKr,0.0348,,,,,,,True,结果报告表1
+ΔadhE+ΔldhA+ΔackA,adhE; ldhA; ackA,ACALD; ALCD2x; LDH_D; ACKr,0.0348,,,,,,,True,结果报告表1

@@ -1,0 +1,13 @@
+Module,Parameter,Value,Justification
+Lactate,Glucose uptake,-8 mmol/gDCW/h,Restricts carbon source to simulate real batch fermentation limits.
+Lactate,ATPM,8.39 mmol/gDCW/h,"Non-growth associated maintenance energy. Ref: Orth et al., 2011."
+Lactate,O2 uptake,0 mmol/gDCW/h,Strict anaerobic condition for mixed-acid fermentation.
+Lactate,LDH_D_TG bounds,-1000 to 1000,Unlocked thermodynamic pairs to allow lactate synthesis.
+Lactate,Two-stage Yield,2.17 (Apparent),>2.0 due to trace carbon cofactors; Carbon-based yield is ~0.98 mol C/mol C.
+Tyrosine,EX_tyr__L_e,-0.15 mmol/gDCW/h,Restricted external tyrosine supply to expose the essentiality of pheA.
+Tyrosine,EX_phe__L_e,-10 mmol/gDCW/h,Allowed phenylalanine uptake to support growth when pheA is knocked out.
+Tyrosine,EX_melanin_e,0.1 ~ 0.5,Forced lower bound simulating strong promoter induction for non-growth-associated melanin production.
+Microbiome,Initial Abundance,Normalized to 1.0,Sourced from 16S rRNA data (NCBI SRA: PRJNA733204). Strictly normalized.
+Microbiome,Bth Lactate mu_max,104.3 (relative unit),Derived from AGORA 1.0 (relaxed FBA). Explains substrate hijacking.
+Microbiome,Eco Lactate mu_max,145.78 (relative unit),Derived from AGORA 1.0. Explains high competitiveness.
+Microbiome,Acid prod rate,0.02 (mmol/gDCW/h),Simulates continuous lactic acid supplementation in the gut environment.

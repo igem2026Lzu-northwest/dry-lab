@@ -1,0 +1,12 @@
+﻿label,species,mu_max_glc,source
+Aci,Acidaminococcus fermentans,80.05,FBA
+Akk,Akkermansia muciniphila,25.0,FBA
+Bth,Bacteroides thetaiotaomicron,40.0,FBA
+Bif,Bifidobacterium longum,80.0,FBA
+Eub,Eubacterium hallii,85.0,FBA
+Fae,Faecalibacterium prausnitzii,50.13,FBA
+Meg,Megasphaera elsdenii,69.07,FBA
+Vei,Veillonella parvula,107.17,FBA
+Lac,Lactobacillus plantarum,110.0,FBA
+Eco,Escherichia coli,130.0,FBA
+Ros,Roseburia intestinalis,85.0,FBA

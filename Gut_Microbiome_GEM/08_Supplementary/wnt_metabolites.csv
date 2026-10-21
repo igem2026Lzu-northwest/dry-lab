@@ -1,0 +1,10 @@
+metabolite,effect,pathway,cell_type,reference,year,notes
+lactate,activate,"Wnt/β-catenin",肠上皮/干细胞,待具体引用—建议PubMed: lactate Wnt intestinal regeneration,NaN,本项目候选代谢物；需核实具体文献DOI
+butyrate,activate,"Wnt/β-catenin",肠上皮,待具体引用—建议PubMed: butyrate Wnt intestine,NaN,HDAC抑制可能参与Wnt激活
+propionate,modulate,"Wnt/β-catenin",肠上皮,待具体引用—建议PubMed: propionate Wnt signaling,NaN,可能通过GPR41/43间接影响
+secondary_bile_acid,activate,"Wnt/β-catenin, FXR",肠上皮/肝,待具体引用—建议PubMed: bile acid Wnt FXR intestine,NaN,DCA、LCA等次级胆汁酸
+polyamine,activate,"Wnt/β-catenin, c-Myc",肠上皮/干细胞,待具体引用—建议PubMed: polyamine Wnt intestinal,NaN,腐胺、亚精胺等
+succinate,modulate,"Wnt/β-catenin, GPR91",肠上皮,待具体引用—建议PubMed: succinate Wnt intestine,NaN,可能通过SUCNR1
+acetate,modulate,"Wnt/β-catenin",肠上皮,待具体引用—建议PubMed: acetate Wnt intestinal,NaN,SCFA，作用较弱
+formate,待定,"待定",肠上皮,文献待查,NaN,在iGEM背景下不是主候选
+valerate,待定,"待定",肠上皮,文献待查,NaN,戊酸/异戊酸，SCFA之一

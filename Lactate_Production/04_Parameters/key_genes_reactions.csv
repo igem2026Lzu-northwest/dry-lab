@@ -1,0 +1,10 @@
+﻿pathway,gene,b_number,reaction_keywords,reaction_ids,knockout_strategy,safety,source
+乙醇,adhE,b1241,"ACALD, ALCD2x",ACALD; ALCD2x,完全关闭,可敲除但非必需,结论.docx 2.3
+甲酸/PFL,pflB,b0902,"PFL, OBTFL",PFL; OBTFL,完全关闭,安全且推荐,结论.docx 2.3
+琥珀酸合成,frdABCD,b4151-4154,"FRD2, FRD3",FRD2; FRD3,关闭延胡索酸还原酶,安全,结论.docx 2.3
+琥珀酸分泌,dcuS,-,SUCCt2_2pp,SUCCt2_2pp,关闭安全转运体,安全,结论.docx 2.3
+琥珀酸脱氢酶,sdhCDAB,b0721-0724,SUCDi,SUCDi,不关闭,保留,结论.docx 2.3
+必需二羧酸转运体,dcuS,-,SUCCtex,SUCCtex,不关闭,致死,结论.docx 2.3
+乳酸,ldhA,b1380,LDH_D,LDH_D,可敲除,敲除后 μ 降约 44%,结果报告
+乙酸,ackA,b2296,ACKr,ACKr,可敲除,无影响,结果报告
+乙酸,pta,b2297,"PTA2, PTAr",PTA2; PTAr,可敲除,-,之前对话

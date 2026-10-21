@@ -1,0 +1,10 @@
+﻿parameter,value,unit,description,source
+GECKO_version,3.2.5,-,酶约束工具箱版本,结论.docx 2.1
+model_type,ecModel_iJO1366,-,轻量版酶约束模型,结果报告
+model_reactions,3195,-,反应数,结果报告
+model_metabolites,1806,-,代谢物数,之前对话
+protein_pool,0.125,-,蛋白质池约束,之前对话
+kcat_source,DLKcat,-,kcat 预测来源,结果报告
+uniprot_mapping,UniProt,-,蛋白匹配来源,结果报告
+biomass_reaction,BIOMASS_Ec_iJO1366_WT_53p95M,-,生物量反应,结论.docx
+solver,Gurobi API,-,求解方式,结果报告

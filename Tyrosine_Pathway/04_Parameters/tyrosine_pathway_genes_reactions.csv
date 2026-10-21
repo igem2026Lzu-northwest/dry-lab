@@ -1,0 +1,6 @@
+﻿gene,b_number,reaction,function
+pheA,b2599,PPND,预苯酸脱水酶（苯丙氨酸支路）
+tyrA,b2600,CHORM,分支酸变位酶（共同前体）
+trpR,b4393,regulation,色氨酸操纵子抑制（GEM 无法模拟）
+pykA,b1854,PYK,丙酮酸激酶 II（PEP 消耗）
+TYRTA,b4053,TYRTA,酪氨酸转氨酶（过表达目标）

@@ -1,0 +1,11 @@
+﻿parameter,value,unit,description
+D,0.05,1/h,稀释率
+S_in,2.0,mmol,葡萄糖流入
+Ks_glc,0.5,-,葡萄糖半饱和常数
+Ks_acid,0.5,-,有机酸半饱和常数
+Y_glc,0.5,-,葡萄糖生物量产率
+Y_acid,0.4,-,有机酸生物量产率
+acid_prod_rate,0.02,-,酸产生速率
+sim_time,100,h,模拟时间
+solver,ode45,-,MATLAB 求解器
+probiotic_marker,"[0,1,0,1,1,1,1,1,1,0,1]",-,益生菌标记

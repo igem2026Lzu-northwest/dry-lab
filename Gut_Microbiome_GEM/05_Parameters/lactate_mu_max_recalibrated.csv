@@ -1,0 +1,12 @@
+﻿label,species,lactate_mu_max,condition
+Aci,Acidaminococcus fermentans,78.587,relaxed
+Akk,Akkermansia muciniphila,54.948,relaxed
+Bth,Bacteroides thetaiotaomicron,104.3,relaxed
+Bif,Bifidobacterium longum,72.559,relaxed
+Eub,Eubacterium hallii,78.93,relaxed
+Fae,Faecalibacterium prausnitzii,50.132,relaxed
+Meg,Megasphaera elsdenii,69.066,relaxed
+Vei,Veillonella parvula,108.72,relaxed
+Lac,Lactobacillus plantarum,68.459,relaxed
+Eco,Escherichia coli,145.78,relaxed
+Ros,Roseburia intestinalis,69.373,relaxed

@@ -1,0 +1,12 @@
+﻿label,species,lactate,formate,propionate,valerate
+Aci,Acidaminococcus fermentans,78.587,62.543,62.555,79.736
+Akk,Akkermansia muciniphila,54.948,53.125,53.151,0.0
+Bth,Bacteroides thetaiotaomicron,104.3,92.198,92.502,104.3
+Bif,Bifidobacterium longum,72.559,72.559,0.0,72.435
+Eub,Eubacterium hallii,78.93,74.747,0.0,78.93
+Fae,Faecalibacterium prausnitzii,50.132,45.574,0.0,50.06
+Meg,Megasphaera elsdenii,69.066,69.066,62.711,69.066
+Vei,Veillonella parvula,108.72,96.34,99.116,108.52
+Lac,Lactobacillus plantarum,68.459,68.459,0.0,16.249
+Eco,Escherichia coli,145.78,139.71,130.59,145.45
+Ros,Roseburia intestinalis,69.373,69.031,0.0,69.259

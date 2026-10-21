@@ -1,0 +1,4 @@
+﻿stage,condition,objective,oxygen_setting,mu_h,lactate,glucose_uptake,yield_mol_mol,source
+阶段1,好氧生长最大化,maximize biomass,O2 lb=-20,0.2813,,,,结果.docx 5
+阶段2,厌氧零生长最大化乳酸,maximize lactate,O2=0,0.0,18.6583,9.3291,2.0,结果.docx 5
+dFBA分批,厌氧+敲除背景，最大化生长,maximize growth,O2=0,,17.7911,10.0,1.7817,结论.docx 3.5
