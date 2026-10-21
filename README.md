@@ -24,6 +24,14 @@ The Dry Lab work is divided into four distinct modules:
 *Note: Numbering gaps (e.g., missing `03` in some modules) indicate raw data or intermediate files that were omitted to save repository space (available upon request or via provided database IDs).*
 
 ```text
+├── FLUKA code and result_/
+│   ├── Result/               # FLUKA output summaries and result tables
+│   ├── Code                  # FLUKA input files and source code
+│   ├── OUT.flair             # FLUKA project file
+│   ├── OUT.inp               # FLUKA input deck
+│   ├── source.f              # FLUKA source routine
+│   └── source.o              # compiled object file
+│
 ├── Lactate_Production/
 │   ├── 01_Models/            # Core metabolic models (.mat)
 │   ├── 02_Scripts/           # MATLAB scripts (Gurobi direct-solver FBA)
